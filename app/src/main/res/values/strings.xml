@@ -12,4 +12,6 @@
 
     <string name="value">Value/Brightness</string>
     <string name="valueProgress">Value: %1d</string>
+
+    <string name="view_more">Scroll to view more options</string>
 </resources>

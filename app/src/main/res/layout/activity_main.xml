@@ -111,6 +111,7 @@
     </FrameLayout>
 
     <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/valueLayout"
@@ -202,5 +203,16 @@
         </LinearLayout>
 
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/view_more"
+        android:textStyle="italic" />
 
 </RelativeLayout>
